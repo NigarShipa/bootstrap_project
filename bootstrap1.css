@@ -1,0 +1,142 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  /**font-family: 'Handlee', cursive;*/
+
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+
+}
+
+.section-title h3{
+  font-weight: bolder;
+  margin-bottom: 0;
+  padding: 2px;
+
+}
+
+.hr-style
+{
+  border: 5px dotted black;
+  border-bottom: none;
+  width: 50px;
+}
+
+
+header{
+  background-image: url(book.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.navbar{
+  padding:1% 10%;
+  background-color:black;
+ opacity: 0.4;
+
+
+}
+
+.navbar-brand img{
+  width: 40%;
+  height: auto;
+}
+.nav-link{
+  color: white;
+  margin:10px;
+  border-radius: 5px;
+  transition: .4s;
+
+}
+.nav-link:hover{
+ background: red;
+  color: black;
+  transform: scale(1.1);
+}
+#feature{
+  padding: 5px 20px;
+  background: rgb(101, 228, 240);
+
+}
+
+.feature-col{
+  border: 2px solid chocolate;
+  border-radius: 5PX;
+  padding: 15px;
+  margin: 20px 0px;
+  transition: .4s;
+}
+
+.feature-col:hover{
+
+  transform: scale(1.1);
+  box-shadow: 2px 6px 5px black;
+
+
+}
+
+.icon-style{
+  background: blueviolet;
+  color: brown;
+  padding: 15px;
+  margin: 5px 0px;
+}
+.banner-contents button
+{
+color: blue;
+padding: 4px 10px;
+font-weight: bolder;
+box-shadow:2px 6px 5px rgb(170, 43, 43);
+
+
+}
+
+.banner-contents h1
+{
+color: blue;
+font-weight: bolder;
+padding: 4px 10px;
+
+
+}
+
+.section-container
+{
+height: 100vh;
+
+}
+/*about me */
+#about-me{
+
+  padding: 4% 10%;
+  background-color: rgb(131, 151, 160);
+
+}
+#about-me p{
+font-size: 0.9 rem;
+margin-bottom: 0;
+font-weight:light ;
+
+}
+
+/*contact me */
+#contact{
+  padding: 2px 10px;
+  background-color: rgb(182, 173, 187);
+}
+ 
+/*footer */
+footer{
+  padding: 2px 6px;
+  background-color: rgb(118, 10, 128);
+}
+
